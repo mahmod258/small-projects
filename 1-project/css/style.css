@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+:root {
+  --blue: #49a6e9;
+}
+body {
+  background-color: #f1f5f8;
+}
+nav {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+nav {
+  background-color: white;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 4px 20px -10px black;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline;
+  font-weight: 500;
+}
+nav * {
+  letter-spacing: 4px;
+}
+.container h4 {
+  color: var(--blue);
+}
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section div {
+  text-align: center;
+}
+section div h1 {
+  background-color: black;
+  padding: 10px;
+  letter-spacing: 4px;
+  font-size: 35px;
+  border-radius: 6px;
+  color: white;
+  margin-bottom: 40px;
+}
+section div h1 span {
+  color: var(--blue);
+}
+section div button {
+  padding: 13px 26px;
+  border-radius: 8px;
+  border: 2px solid black;
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  background-color: transparent;
+  transition: 0.3s;
+  cursor: pointer;
+}
+section div button:hover {
+  background-color: black;
+  color: white;
+}
+.container {
+  width: 90vw;
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

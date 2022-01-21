@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  gap: 40px;
+  background-color: hsl(210, 36%, 96%);
+}
+section {
+  text-align: center;
+  margin-top: 80px;
+}
+section div * {
+  display: inline;
+}
+section .head {
+  font-weight: bold;
+  font-size: 19px;
+  letter-spacing: 3px;
+  color: hsl(205, 86%, 17%);
+  margin-bottom: 27.5px;
+  font-size: 27px;
+}
+section div h1 {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 3.5px;
+  margin-right: 5px;
+  color: hsl(205, 86%, 17%);
+}
+section div input {
+  width: 65px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 18px;
+  padding-left: 12px;
+  border-radius: 0.5rem;
+  border: 0px;
+  color: rgba(0, 0, 0, 0.637);
+}
+section div button {
+  margin-right: 5px;
+  margin-left: 10px;
+  background-color: #49a6e9;
+  border: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  letter-spacing: 1.3px;
+  font-size: 14px;
+  border-radius: 7.5px;
+}
+article {
+  max-width: 640px;
+}
+article p {
+  color: hsl(210, 22%, 49%);
+  line-height: 1.6;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media (max-width: 561px) {
+  section .head {
+    font-size: 5vw;
+  }
+}
+@media (max-width: 356px) {
+  section div button {
+    margin-top: 10px;
+  }
+}

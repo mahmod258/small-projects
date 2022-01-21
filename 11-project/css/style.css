@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(210, 36%, 96%);
+}
+section {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 80px;
+}
+.giveaway {
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  gap: 30px;
+}
+.image-cont {
+}
+.image-cont img {
+  width: 102%;
+}
+section .title {
+  width: 80%;
+  line-height: 1;
+}
+section .title h1 {
+  margin-bottom: 12px;
+  letter-spacing: 3px;
+  font-size: 28.5px;
+  color: hsl(205, 72%, 37%);
+}
+section .title p {
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+section .pra {
+  color: hsl(209, 23%, 60%);
+  line-height: 1.6;
+  font-size: 1.02rem;
+}
+section .time {
+  display: flex;
+  gap: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+section .time div {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #102a42;
+  width: 80px;
+  height: 80px;
+}
+section .time div h1 {
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+section .time div h5 {
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+section .giveaway .time {
+  display: flex;
+}
+@media (max-width: 900px) {
+  section {
+    flex-flow: column;
+  }
+  .giveaway {
+    width: 100%;
+  }
+}

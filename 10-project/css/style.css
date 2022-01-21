@@ -1,0 +1,105 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-color: #f1f5f8;
+  gap: 50px;
+}
+section {
+  text-align: center;
+  margin-top: 50px;
+}
+section h1 {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: rgb(50, 61, 80);
+  margin-bottom: 17.5px;
+}
+section p {
+  color: #5d83a3;
+  letter-spacing: 1;
+}
+article {
+  width: 90vw;
+  display: flex;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  gap: 30px;
+}
+article .about-img {
+  background: white;
+  border-radius: 12px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  width: 100%;
+}
+article .content p,
+article .content h4 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+article .content p {
+  color: #778fa6;
+  letter-spacing: 1;
+  font-weight: 400;
+  font-weight: 14px;
+  line-height: 1.4;
+  font-size: 0.97rem;
+}
+article .content h4 {
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 2.5;
+}
+article .content {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+.buttons {
+  width: 100%;
+  display: flex;
+  border-top-right-radius: 5px;
+}
+
+.buttons button {
+  justify-content: center;
+  width: 100%;
+  letter-spacing: 4px;
+  font-size: 15px;
+  background-color: #dae2ec;
+  border: 0px;
+  padding-top: 20.5px;
+  padding-bottom: 20.5px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.buttons button:first-child {
+  border-top-left-radius: 10px;
+  background-color: white;
+}
+.buttons button:last-child {
+  border-top-right-radius: 10px;
+}
+
+.image {
+  width: 100%;
+  height: 318px;
+  background-image: url(https://vannilla-js-basic-project-11-tabs.netlify.app/hero-bcg.jpeg);
+  background-size: cover;
+  border-radius: 10px;
+  width: 100%;
+}
+@media (max-width: 989px) {
+  article {
+    flex-flow: column;
+    align-items: center;
+  }
+}
